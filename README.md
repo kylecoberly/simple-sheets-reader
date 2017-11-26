@@ -1,5 +1,7 @@
 # Simple Sheets Reader
 
+*This package is deprecated in favor of [`simple-sheets`](https://www.npmjs.com/package/simple-sheets), which combines this with the `simple-sheets-writer` API*
+
 Reads Google Sheets row data, perfect for sheets populated by Google Forms. This is a wrapper for the very powerful-yet-overwhelming official Sheets API.
 
 Authenticates via a [Google Service Account](https://cloud.google.com/iam/docs/understanding-service-accounts) by passing in the `client_email` and `private_key` values provided by the `.json` file that Google Service Accounts generate. See [service-account-credentials.json](service-account-credentials.json) for an example.
