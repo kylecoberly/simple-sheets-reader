@@ -27,7 +27,7 @@ function _sheets(clientEmail, privateKey){
         auth: new google.auth.JWT(
             clientEmail,
             null,
-            privateKey,
+            privateKey.replace(/\\n/g, "\n"),
             ["https://www.googleapis.com/auth/spreadsheets"],
             null
         )
